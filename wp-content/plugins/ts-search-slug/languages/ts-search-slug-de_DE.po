@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TS Search Slug\n"
+"POT-Creation-Date: 2025-07-30 15:50+0200\n"
+"PO-Revision-Date: 2025-07-30 16:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: plugin.php:101
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Du hast nicht die erforderlichen Rechte, um auf diese Seite zuzugreifen."
+
+#. Plugin Name of the plugin/theme
+#: plugin.php:105
+msgid "TS Search Slug"
+msgstr "TS Search Slug"
+
+#: plugin.php:130
+msgid "Allgemein"
+msgstr "Allgemein"
+
+#: plugin.php:137
+msgid "Enable Post Slug Functionality for additional Custom Post Types"
+msgstr "Plugin Slug Funktionen für Custom Post Types aktivieren"
+
+#: plugin.php:145
+msgid "Enable Post ID Functionality for Post Types"
+msgstr "Plug Post-ID Funktionen für Post Types aktivieren"
+
+#: plugin.php:153
+msgid "Enable Post States List in Page Overview"
+msgstr "\"Post States\" Liste in Seitenübersicht aktivieren"
+
+#: plugin.php:200
+msgid ""
+"For compatibility with previous versions, the built-in post types (Post, "
+"Page) are always enabled for the slug functionality. Therefore, they do not "
+"appear in the settings here."
+msgstr ""
+"Aus Kompatibilitätsgründen mit früheren Versionen sind die integrierten "
+"Beitragstypen (Beitrag, Seite) immer für die Slug-Funktionalität aktiviert. "
+"Daher werden sie hier in den Einstellungen nicht angezeigt."
+
+#: plugin.php:255
+msgid "Postname/Slug"
+msgstr "Postname/Slug"
+
+#: plugin.php:256
+msgid "ID"
+msgstr "ID"
+
+#: plugin.php:396
+msgid "Close"
+msgstr "Schließen"
+
+#: plugin.php:398
+msgid "Loading ..."
+msgstr "Wird geladen …"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.spiess-informatik.de/wordpress-plugins/"
+msgstr "https://www.spiess-informatik.de/wordpress-plugins/"
+
+#. Description of the plugin/theme
+msgid ""
+"Search for Slug in Admin Post/Page Overview and add Slug Column to Post/Page "
+"Overview"
+msgstr ""
+"Nach Slug in Beitrags-/Seitenübersicht suchen und Slug Spalte in Beitrags-/"
+"Seitenübersicht hinzufügen"
+
+#. Author of the plugin/theme
+msgid "Tobias Spiess"
+msgstr "Tobias Spiess"
+
+#. Author URI of the plugin/theme
+msgid "https://www.spiess-informatik.de"
+msgstr "https://www.spiess-informatik.de"

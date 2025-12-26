@@ -1,0 +1,19 @@
+#ts-search-slug-page-state-menu {
+    background-color: #fff;
+    bottom: 0;
+    box-sizing: border-box;
+    display: none;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 50px 25px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 280px;
+}
+
+#ts-search-slug-page-state-menu .ts-search-slug-page-state-menu-inner {
+    height: auto;
+
+}

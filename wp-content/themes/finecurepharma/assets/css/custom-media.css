@@ -1,0 +1,234 @@
+@media only screen and (min-width:1728px) {
+    .collaborate-section {
+        padding-right: 80px;
+    }
+
+    .home-career-section {
+        padding-left: 80px;
+    }
+
+    .about-stats .stats-card .count-info p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1727px) {
+    .header .logo img {
+        max-height: 48px;
+    }
+
+    .finecurepharma-menu .menu-item a {
+        font-size: 16px;
+    }
+
+    .finecurepharma-menu {
+        gap: 10px;
+    }
+
+    .header-right-search .fc-es-search-input form {
+        width: 280px;
+    }
+
+    .page-overlay {
+        padding-top: 104px;
+    }
+
+    .infrastructure-count {
+        padding: 30px;
+        gap: 30px;
+        margin-top: -65px;
+    }
+
+    .infrastructure-count li {
+        gap: 20px;
+    }
+
+    .infrastructure-count .count-info .count-number {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .infrastructure-count .count-info h4 {
+        font-size: 20px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .vision-mission ul li h3 {
+        font-size: 24px;
+        margin: 20px 0 8px 0;
+    }
+
+    .text-18px {
+        font-size: 16px;
+    }
+
+    .sub-text {
+        font-size: 20px;
+    }
+
+    .our-company-section .our-company-image {
+        width: 40%;
+    }
+
+    .footer-top .footer-top-left {
+        max-width: 330px;
+    }
+
+    .footer-touch-btns {
+        min-width: 280px;
+    }
+
+    .footer-links .footer-links-list li {
+        min-width: 180px;
+    }
+
+    .footer-top {
+        gap: 20px;
+    }
+
+    .certifications-list .cert-item {
+        padding: 16px;
+    }
+
+    .common-slide .swiper-slide .swiper-info {
+        padding: 12px 0px;
+    }
+
+    .common-slide .swiper-slide .swiper-title,
+    .common-slide.home-healthcare-brands-slider .swiper-slide .swiper-title {
+        font-size: 20px;
+    }
+
+    .common-slide .swiper-slide p,
+    .common-slide.home-healthcare-brands-slider .swiper-slide p {
+        font-size: 16px;
+    }
+
+    .achievements-list .achievements-item p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .our-core-businesses-info h4 {
+        font-size: 20px;
+    }
+
+    .our-core-businesses-info p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .common-slide .swiper-slide .swiper-title {
+        height: 50px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .certifications-list {
+        gap: 10px;
+    }
+
+    .certifications-list .cert-item {
+        padding: 12px;
+    }
+
+    .footer-links .footer-links-list li {
+        min-width: inherit;
+    }
+
+    .footer-links .footer-links-list li a,
+    .footer-bottom ul li a,
+    .footer-bottom p {
+        font-size: 16px;
+    }
+
+    .footer-links .footer-title {
+        font-size: 20px;
+    }
+
+    .default-btn-white {
+        font-size: 18px;
+        padding: 13px 24px 11px 24px;
+    }
+
+    .footer-touch-btns {
+        min-width: 235px;
+    }
+
+    .custom-gap64,
+    .what-we-do-section {
+        gap: 60px;
+    }
+
+    .cpy-64px,
+    .our-facilities-section,
+    .collaborate-section,
+    .home-career-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .ceo-message {
+        padding: 60px 40px;
+    }
+
+    .header .logo img {
+        max-height: 36px;
+    }
+
+    .finecurepharma-menu .menu-item a {
+        font-size: 14px;
+    }
+
+    .header-right-search .fc-es-search-input form {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:1279px) {
+    .finecurepharma-menu .menu-item {
+        padding: 0px;
+    }
+
+    .cpx-40px {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+
+    .finecurepharma-menu .menu-item .sub-menu {
+        -ms-transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -ms-transform-origin: 0 0 0;
+        -webkit-transform-origin: 0 0 0;
+        transform-origin: 0 0 0;
+        -webkit-transition: all .35s ease 0s;
+        -moz-transition: all .35s ease 0s;
+        -o-transition: all .35s ease 0s;
+        transition: all .35s ease 0s;
+        display: flex;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+
+    .finecurepharma-menu .menu-item:hover>a+.sub-menu {
+        opacity: 1;
+        visibility: visible;
+        -ms-transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1)
+    }
+}
+
+@media only screen and (max-width:767px) {}
