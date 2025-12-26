@@ -40,7 +40,7 @@
         </div>
         <div class="header-right-area">
             <div class="custom-nav">
-                <button class="toggleButton d-none">
+                <button class="toggleButton d-xl-none">
                     <span class="one"></span>
                     <span class="two"></span>
                     <span class="three"></span>

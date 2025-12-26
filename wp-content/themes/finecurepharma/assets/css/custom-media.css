@@ -183,6 +183,10 @@
         max-height: 36px;
     }
 
+    .page-overlay {
+        padding-top: 100px;
+    }
+
     .finecurepharma-menu .menu-item a {
         font-size: 14px;
     }
@@ -203,32 +207,117 @@
     }
 }
 
-@media only screen and (min-width:992px) {
-
-    .finecurepharma-menu .menu-item .sub-menu {
-        -ms-transform: scaleY(0);
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-        -ms-transform-origin: 0 0 0;
-        -webkit-transform-origin: 0 0 0;
-        transform-origin: 0 0 0;
-        -webkit-transition: all .35s ease 0s;
-        -moz-transition: all .35s ease 0s;
-        -o-transition: all .35s ease 0s;
-        transition: all .35s ease 0s;
-        display: flex;
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
+@media only screen and (max-width:1199px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .finecurepharma-menu .menu-item:hover>a+.sub-menu {
-        opacity: 1;
-        visibility: visible;
-        -ms-transform: scaleY(1);
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1)
+    .header .logo img {
+        max-height: 30px;
+    }
+
+    .page-overlay {
+        padding-top: 84px;
+    }
+
+    .toggleButton {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: transparent;
+        border: none;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9;
+    }
+
+    .toggleButton span {
+        width: 100%;
+        height: 3px;
+        background: #1B1464;
+        margin-left: auto;
+    }
+
+    .menu-open .toggleButton span {
+        width: 75%;
+    }
+
+    .menu-open .toggleButton span.one {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-open .toggleButton span.two {
+        opacity: 0;
+    }
+
+    .menu-open .toggleButton span.three {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .menu-header-menu-container {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 50%);
+    }
+
+    .menu-open .menu-header-menu-container {
+        right: 0;
+    }
+
+    .finecurepharma-menu {
+        flex-direction: column;
+        gap: 16px;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 350px;
+        background: #ffffff;
+        height: 100%;
+        padding: 16px;
+        padding-top: 60px;
+        transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+    }
+
+    .menu-open .finecurepharma-menu {
+        right: 0;
+    }
+
+    .header-right-search .fc-es-search-input form {
+        margin-right: 60px;
+    }
+
+    .finecurepharma-menu .menu-item a {
+        font-size: 18px;
+    }
+
+    .finecurepharma-menu .menu-item > a:not(.sub-menu a) {
+        justify-content: space-between;
+    }
+
+    .menu-open .finecurepharma-menu .menu-item:hover>a+.sub-menu {
+        position: static;
+        width: 100%;
+        background: #F3FAFF;
+        border-radius: 8px;
+        min-width: inherit;
+        gap: 16px;
+        box-shadow: none;
     }
 }
 
-@media only screen and (max-width:767px) {}
+@media only screen and (max-width:767px) {
+    .finecurepharma-menu .menu-item a {
+        font-size: 16px;
+    }
+}
